@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InstaGenie - IG Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>InstaGenie</h1>
+    <p>Your ultimate Instagram caption & username generator</p>
+  </header>
+
+  <main>
+    <section class="ad-space">[Your Ad Here]</section>
+
+    <section class="generator">
+      <h2>💬 How are you feeling?</h2>
+      <select id="emotion">
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+        <option value="confident">Confident</option>
+        <option value="lazy">Lazy</option>
+        <option value="love">In Love</option>
+        <option value="angry">Angry</option>
+        <option value="lonely">Lonely</option>
+        <option value="energetic">Energetic</option>
+        <option value="grateful">Grateful</option>
+        <option value="chill">Chill</option>
+        <option value="lost">Lost</option>
+      </select>
+      <button onclick="generateCaption()">Generate Caption</button>
+      <p id="captionResult" class="result"></p>
+    </section>
+
+    <section class="ad-space">[Your Ad Here]</section>
+
+    <section class="generator">
+      <h2>✨ Choose a username style</h2>
+      <select id="filter">
+        <option value="aesthetic">Aesthetic</option>
+        <option value="cool">Cool</option>
+        <option value="funny">Funny</option>
+        <option value="dark">Dark</option>
+        <option value="anime">Anime</option>
+      </select>
+      <button onclick="generateUsername()">Generate Username</button>
+      <p id="usernameResult" class="result"></p>
+    </section>
+
+    <section class="ad-space">[Your Ad Here]</section>
+
+    <section class="description">
+      <h2>About InstaGenie</h2>
+      <p>InstaGenie helps you create the best Instagram usernames and captions based on how you're feeling or your vibe. Whether you're looking to express joy, sadness, confidence, or just want a cool username to stand out — we've got you covered.</p>
+      <p>This tool is especially built for content creators, influencers, or anyone looking to add more flair to their Instagram game. Our username filters cover aesthetic, cool, anime, funny, and dark styles — so you can match your identity.</p>
+      <p>In future updates, we'll add more customization, quote packs, hashtag suggestions, and auto-copy features. Keep visiting and stay creative!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 InstaGenie. Built with ❤️ for creators.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
